@@ -1,0 +1,22 @@
+{
+  "name": "server-graphql",
+  "version": "0.0.1",
+  "description": "A test implementation of graphql to respond to requests and serve test data for charts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolai Vasquez",
+  "license": "ISC",
+  "babel": {
+    "presets": ["es2015"]
+  },
+  "dependencies": {
+    "graphql": "^0.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
